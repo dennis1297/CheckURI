@@ -1,0 +1,44 @@
+.widget_lg{
+    flex: 2;
+    box-shadow: -1px 1px 5px 3px rgba(179,173,32,0.56);
+    -webkit-box-shadow: -1px 1px 5px 3px rgba(179,173,32,0.56);
+    -moz-box-shadow: -1px 1px 5px 3px rgba(179,173,32,0.56);
+    padding: 20px;
+}
+.widget_lg_title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widget_table{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widget_th{
+    text-align: left;
+}
+.widget__user{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLg_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widget_lg_button{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widget_lg_button.Approved{
+    background-color: aqua;
+}
+.widget_lg_button.Pending{
+    background-color: rgb(114, 117, 156);
+}
+.widget_lg_button.Declined{
+    background-color: rgb(26, 153, 153);
+}
